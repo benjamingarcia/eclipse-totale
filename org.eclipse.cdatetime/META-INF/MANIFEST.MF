@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Cdatetime
+Bundle-SymbolicName: org.eclipse.cdatetime
+Bundle-Version: 1.0.0
+Export-Package: org.eclipse.swt.nebula.widgets.cdatetime;version="1.0.0";
+  uses:="org.eclipse.swt.events,
+   org.eclipse.swt.graphics,
+   org.eclipse.swt.widgets,
+   new org.eclipse.swt.nebula.widgets.cdatetime"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.swt;bundle-version="3.7.1"

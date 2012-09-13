@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Nebula
+Bundle-SymbolicName: com.eclipsetotale.tutorial.horloge.nebula;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.eclipsetotale.tutorial.horloge.nebula.Activator
+Bundle-Vendor: ECLIPSETOTALE
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.cdatetime;bundle-version="1.0.0",
+ com.eclipsetotale.tutorial.horloge
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: com.eclipsetotale.tutorial.horloge.nebula;version="1.0.0";uses:="org.eclipse.ui.plugin,org.osgi.framework,org.eclipse.swt.widgets"

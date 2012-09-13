@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Texte
+Bundle-SymbolicName: com.eclipsetotale.tutorial.horloge.texte;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.eclipsetotale.tutorial.horloge.texte.Activator
+Bundle-Vendor: ECLIPSETOTALE
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.eclipsetotale.tutorial.horloge
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: com.eclipsetotale.tutorial.horloge.texte;version="1.0.0";uses:="org.eclipse.ui.plugin,org.osgi.framework,org.eclipse.swt.widgets"

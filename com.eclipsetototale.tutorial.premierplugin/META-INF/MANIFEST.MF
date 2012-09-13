@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Premierplugin
+Bundle-SymbolicName: com.eclipsetototale.tutorial.premierplugin; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.eclipsetototale.tutorial.premierplugin.Activator
+Bundle-Vendor: ECLIPSETOTOTALE
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.eclipsetotale.tutorial.horloge.nebula;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
