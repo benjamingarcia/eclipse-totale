@@ -47,7 +47,7 @@ public class HorlogeView extends ViewPart {
 	@Override
 	public void setFocus() {
 		// TODO Auto-generated method stub
-
+	    System.out.println("test");
 	}
 
 }
